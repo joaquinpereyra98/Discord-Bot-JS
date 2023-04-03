@@ -1,7 +1,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+// const { token } = require('./config.json');
+//config file is uselees, try better ways: .env or .gitnore
 
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
